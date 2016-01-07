@@ -1,25 +1,20 @@
 //
 //  ViewController.swift
-//  chapter06-2
+//  chapter06-8
 //
-//  Created by 白鳥 友里恵 on 2015/12/30.
-//  Copyright (c) 2015年 swan. All rights reserved.
+//  Created by 白鳥 友里恵 on 2016/01/05.
+//  Copyright (c) 2016年 swan. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
-
-    @IBOutlet weak var label: UILabel!
-    @IBAction func button() {
-        label.text = "こんにちわ"
+    
+    @IBOutlet weak var lavel: UILabel!
+    @IBAction func slider(sender: UISlider) {
+        lavel.text = "音量は\(sender.value)です"
     }
-    
-    var age:Int? = nil
-    var age:Int? = -5
-    print(age! + 1)
-    
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

@@ -54,6 +54,16 @@ var Dog = dog()
 Dog.run()
 
 
+//06-07
+
+var age:Int? = nil
+var agee:Int? = -5
+print(agee! + 1)
+
+var ageee:Int! = -5
+print(ageee + 10)
+
+
 
 
 
