@@ -14,6 +14,7 @@
 		8777FA4F1C473B9B00687E37 /* NewsFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8777FA4E1C473B9B00687E37 /* NewsFeedTests.swift */; };
 		8777FA5A1C473B9C00687E37 /* NewsFeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8777FA591C473B9C00687E37 /* NewsFeedUITests.swift */; };
 		8777FA681C473C0400687E37 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8777FA671C473C0400687E37 /* ListViewController.swift */; };
+		87AEE2151C56F9B200DEC70C /* item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AEE2141C56F9B200DEC70C /* item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8777FA591C473B9C00687E37 /* NewsFeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedUITests.swift; sourceTree = "<group>"; };
 		8777FA5B1C473B9C00687E37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8777FA671C473C0400687E37 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		87AEE2141C56F9B200DEC70C /* item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				8777FA391C473B9600687E37 /* AppDelegate.swift */,
 				8777FA3D1C473B9700687E37 /* Main.storyboard */,
+				87AEE2141C56F9B200DEC70C /* item.swift */,
 				8777FA671C473C0400687E37 /* ListViewController.swift */,
 				8777FA401C473B9700687E37 /* Assets.xcassets */,
 				8777FA421C473B9700687E37 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8777FA681C473C0400687E37 /* ListViewController.swift in Sources */,
+				87AEE2151C56F9B200DEC70C /* item.swift in Sources */,
 				8777FA3A1C473B9600687E37 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +488,7 @@
 				8777FA601C473B9C00687E37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8777FA611C473B9C00687E37 /* Build configuration list for PBXNativeTarget "NewsFeedTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				8777FA631C473B9C00687E37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8777FA641C473B9C00687E37 /* Build configuration list for PBXNativeTarget "NewsFeedUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				8777FA661C473B9C00687E37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
