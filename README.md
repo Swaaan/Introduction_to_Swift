@@ -12,3 +12,7 @@
 >初心者がオリジナルのiOSアプリを開発できるようになるまで 
 <http://qiita.com/justin999/items/986fe025331f077e453e#_reference-dec49907dfcb2178ecef>
 
+<<<<<<< HEAD
+=======
+a
+>>>>>>> 79f597f3c92498f0e03338461297d08bb64122ae
