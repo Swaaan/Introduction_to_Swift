@@ -1,4 +1,4 @@
-### Introduction to Swift / for Designer
+### Introduction to Swift / for Designers
 
 デザイナーがSwiftに体当たりする学習記録。
 
@@ -11,3 +11,4 @@
 
 >初心者がオリジナルのiOSアプリを開発できるようになるまで 
 <http://qiita.com/justin999/items/986fe025331f077e453e#_reference-dec49907dfcb2178ecef>
+
