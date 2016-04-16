@@ -41,6 +41,7 @@ class ListViewController : UITableViewController, NSXMLParserDelegate { //デリ
         }
     }
     
+    //必要なデータのみ取り出すメゾット
     func parser(parser: NSXMLParser, didStartElement elementName: String, namespaceURI: String?, qualifiedName qName: String?, attributes attributeDict: [String : String]) {
         self.currentString = ""
         if elementName == "item" {
@@ -48,12 +49,14 @@ class ListViewController : UITableViewController, NSXMLParserDelegate { //デリ
         }
     }
     
+    //itemsにひとつの記事を追加する
     func parser(parser: NSXMLParser, foundCharacters string: String) {
         self.currentString += string
     }
     
+    
     func parser(parser: NSXMLParser, didEndElement elementName: String, namespaceURI: String?, qualifiedName qName: String?) {
-        switch elementName {
+        switch elementName {    //要素名を格納
             case "title": self.item?.title = currentString
             case "link": self.item?.link = currentString
             case "item": self.items.append(self.item!)
@@ -61,12 +64,20 @@ class ListViewController : UITableViewController, NSXMLParserDelegate { //デリ
         }
     }
     
+    //解析したデータを表示
     func parserDidEndDocument(parser: NSXMLParser) {
          self.tableView.reloadData()
     }
-
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?)  {
+        if let indexPath = self.tableView.indexPathForSelectedRow {
+            let item = items[indexPath.row]
+            let controller = segue.destinationViewController as! DetailViewController
+            controller.title = item.title
+            controller.link = item.link
+        }
+    }
 }
-
 
 
 
