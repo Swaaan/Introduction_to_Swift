@@ -16,19 +16,7 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1169823_210741079284373_2113827737_n.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="bIg-vc-1Sg">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                                <color key="backgroundColor" red="0.83592569780000003" green="1" blue="0.2341371099" alpha="1" colorSpace="calibratedRGB"/>
-                            </imageView>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="bIg-vc-1Sg" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="2i9-sU-gbg"/>
-                            <constraint firstItem="bIg-vc-1Sg" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="AgB-OY-gun"/>
-                            <constraint firstAttribute="trailing" secondItem="bIg-vc-1Sg" secondAttribute="trailing" id="ivz-Eb-Mog"/>
-                            <constraint firstItem="bIg-vc-1Sg" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="sME-OC-HnD"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -36,7 +24,4 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="1169823_210741079284373_2113827737_n.jpg" width="1080" height="718"/>
-    </resources>
 </document>

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		87218EF11CC0EA5500357357 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87218EF01CC0EA5500357357 /* DetailViewController.swift */; };
+		87218EF31CC22E0A00357357 /* 1169823_210741079284373_2113827737_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 87218EF21CC22E0A00357357 /* 1169823_210741079284373_2113827737_n.jpg */; };
 		8777FA3A1C473B9600687E37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8777FA391C473B9600687E37 /* AppDelegate.swift */; };
 		8777FA3F1C473B9700687E37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8777FA3D1C473B9700687E37 /* Main.storyboard */; };
 		8777FA411C473B9700687E37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8777FA401C473B9700687E37 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		87218EF01CC0EA5500357357 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		87218EF21CC22E0A00357357 /* 1169823_210741079284373_2113827737_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1169823_210741079284373_2113827737_n.jpg; sourceTree = "<group>"; };
 		8777FA361C473B9600687E37 /* NewsFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8777FA391C473B9600687E37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8777FA3E1C473B9700687E37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 			children = (
 				8777FA381C473B9600687E37 /* NewsFeed */,
 				8777FA371C473B9600687E37 /* Products */,
+				87218EF21CC22E0A00357357 /* 1169823_210741079284373_2113827737_n.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -213,6 +216,7 @@
 				8777FA441C473B9700687E37 /* LaunchScreen.storyboard in Resources */,
 				8777FA411C473B9700687E37 /* Assets.xcassets in Resources */,
 				8777FA3F1C473B9700687E37 /* Main.storyboard in Resources */,
+				87218EF31CC22E0A00357357 /* 1169823_210741079284373_2113827737_n.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
